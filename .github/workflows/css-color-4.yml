@@ -21,4 +21,4 @@ jobs:
           TOOLCHAIN: bikeshed
           VALIDATE_MARKUP: false
           W3C_BUILD_OVERRIDE: |
-            specStatus: CRD
+            Status: CRD
