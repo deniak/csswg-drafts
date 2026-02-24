@@ -135,7 +135,7 @@ Introduction {#intro}
 	</pre>
 
 	An <dfn export>absolute color</dfn>
-	is a <<color>> whose computed value
+	is  a <<color>> whose computed value
 	has an absolute, colorimetric interpretation.
 	This means that the value is not:
 
