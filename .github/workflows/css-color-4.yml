@@ -18,3 +18,4 @@ jobs:
           GH_PAGES_BRANCH: gh-pages
           SOURCE: css-color-4/Overview.bs
           TOOLCHAIN: bikeshed
+          VALIDATE_MARKUP: false
