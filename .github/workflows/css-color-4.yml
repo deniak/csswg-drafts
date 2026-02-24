@@ -17,5 +17,6 @@ jobs:
         with:
           GH_PAGES_BRANCH: gh-pages
           SOURCE: css-color-4/Overview.bs
+          DESTINATION: css-color-4/index.html
           TOOLCHAIN: bikeshed
           VALIDATE_MARKUP: false

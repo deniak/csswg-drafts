@@ -208,7 +208,7 @@ Introduction</h2>
 
 	<wpt title="This section is not normative, it does not need tests."></wpt>
 
-	This module describes CSS properties which
+	This  module describes CSS properties which
 	allow authors to specify
 	the foreground color and opacity of the text content of an element.
 	This module also describes in detail the CSS <<color>> value type.
