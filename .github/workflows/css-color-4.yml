@@ -20,3 +20,5 @@ jobs:
           DESTINATION: css-color-4/index.html
           TOOLCHAIN: bikeshed
           VALIDATE_MARKUP: false
+          W3C_BUILD_OVERRIDE: |
+            specStatus: CRD
