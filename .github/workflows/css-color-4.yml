@@ -1,0 +1,20 @@
+name: Deploy css-color-4
+on:
+  push:
+    branches: [main]
+    paths: 
+      - "css-color-4/**"
+  workflow_dispatch:
+    paths: 
+      - "css-color-4/**"
+jobs:
+  main:
+    name: Publish css-color-4
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: w3c/spec-prod@v2
+        with:
+          GH_PAGES_BRANCH: gh-pages
+          SOURCE: css-color-4/
+          TOOLCHAIN: bikeshed
