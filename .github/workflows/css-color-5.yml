@@ -1,0 +1,22 @@
+name: Deploy css-color-5
+on:
+  push:
+    branches: [main]
+    paths: 
+      - "css-color-5/**"
+  workflow_dispatch:
+jobs:
+  main:
+    name: Publish css-color-5
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: w3c/spec-prod@v2
+        with:
+          GH_PAGES_BRANCH: gh-pages
+          SOURCE: css-color-5/Overview.bs
+          DESTINATION: css-color-5/index.html
+          TOOLCHAIN: bikeshed
+          VALIDATE_MARKUP: false
+          W3C_BUILD_OVERRIDE: |
+            Status: WD
