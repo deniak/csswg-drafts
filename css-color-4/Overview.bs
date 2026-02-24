@@ -275,7 +275,7 @@ Value Definitions</h3>
 	at each visible wavelength.
 	It is measured by a <em>spectroradiometer</em>.
 
-	If two objects have different
+	If  two objects have different
 	<abbr title="the amount of light at each wavelength">spectra</abbr>,
 	but still produce the same physical sensation,
 	we say they have the same color.
