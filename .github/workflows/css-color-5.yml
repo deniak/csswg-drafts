@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: w3c/spec-prod@v2
+      - uses: w3c/spec-prod@subresources-method
         with:
           GH_PAGES_BRANCH: gh-pages
           SOURCE: css-color-5/Overview.bs
