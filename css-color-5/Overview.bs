@@ -108,7 +108,7 @@ Introduction {#intro}
 	''color-mix()'' and ''light-dark()'',
 	and extends existing ones with [[#relative-colors|relative color syntax]].
 
-	It also extends the ''color()'' function
+	It  also extends the ''color()'' function
 	so that not only predefined color spaces,
 	but also custom color spaces defined by ICC profiles
 	(including calibrated CMYK)
